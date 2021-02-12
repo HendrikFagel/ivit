@@ -1,7 +1,5 @@
 // content.js
-
-
-
+//Das wird mein Zweiter Commit
 
 
 chrome.runtime.onMessage.addListener(
