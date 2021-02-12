@@ -18,9 +18,6 @@ chrome.runtime.onMessage.addListener(
     immobilie['wohnflaueche'+j] = document.getElementsByClassName('font-nowrap')[j].innerHTML;
     //var wohnflaueche = document.getElementsByClassName('font-nowrap')[j].innerHTML;
 
-    
-
-
   }
 
       chrome.runtime.sendMessage({"message": "all_urls_fetched", "data": immobilie});
